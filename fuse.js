@@ -7,6 +7,7 @@ Sparky.task("config", () => {
         homeDir: "src",
         output: "dist/$name.js",
         hash: isProduction,
+        sourceMaps: !isProduction,
         plugins: [
             [SassPlugin(), CSSPlugin()],
             CSSPlugin(),
