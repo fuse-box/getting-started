@@ -12,7 +12,7 @@ const fuse = FuseBox.init({
 fuse.dev();
 
 fuse.bundle("app")
-    .instructions("> index.js")
+    .instructions("> index.ts")
     .watch()
     .hmr();
 

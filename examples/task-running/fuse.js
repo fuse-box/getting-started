@@ -12,14 +12,12 @@ const fuse = FuseBox.init({
 fuse.dev();
 
 fuse.bundle("app")
-    .instructions("> index.js")
+    .instructions("> index.ts")
     .watch()
     .hmr();
 
-fuse.run();
-
 Sparky.task("clean", () => {
-    Sparky.clean("./dist");
+    return Sparky.src("dist").clean("dist");
 });
 
 Sparky.task("watch:images", () => {
@@ -29,4 +27,5 @@ Sparky.task("watch:images", () => {
 
 Sparky.task("default", ["clean", "watch:images"], () => {
     console.log("init tasks");
+    fuse.run();
 });
