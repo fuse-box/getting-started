@@ -21,7 +21,6 @@
     "fuse-test-runner": "^1.0.13",
     "node-sass": "^4.5.3",
     "typescript": "^2.3.4",
-    "uglify-js": "^3.0.13"
   },
   "dependencies": {
     "moment": "^2.18.1"

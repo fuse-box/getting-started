@@ -5,10 +5,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .fusebox
+.idea
 .dist
 # Runtime data
 pids
 dist/
+*dist/
 *.pid
 *.seed
 *.pid.lock
