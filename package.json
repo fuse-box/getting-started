@@ -1,0 +1,29 @@
+{
+  "name": "getting-started",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuse-box/getting-started.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fuse-box/getting-started/issues"
+  },
+  "homepage": "https://github.com/fuse-box/getting-started#readme",
+  "devDependencies": {
+    "fuse-box": "^2.0.11",
+    "fuse-test-runner": "^1.0.13",
+    "node-sass": "^4.5.3",
+    "typescript": "^2.3.4",
+    "uglify-js": "^3.0.13"
+  },
+  "dependencies": {
+    "moment": "^2.18.1"
+  }
+}
