@@ -8,6 +8,7 @@ yarn-error.log*
 .dist
 # Runtime data
 pids
+dist/
 *.pid
 *.seed
 *.pid.lock
