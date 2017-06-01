@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #ececec;
+}
+
+.content * {
+    text-align: center;
+}
+.content {
+    margin: auto;
+    width: 500px;
+}
+.datetime {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom:10px;
+
+}

@@ -12,6 +12,6 @@ const fuse = FuseBox.init({
 
 fuse.bundle("app")
 // .watch() // Enable this to have auto bundling when files change
-    .instructions(">index.ts");
+    .instructions("> index.ts");
 
 fuse.run();

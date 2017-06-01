@@ -26,6 +26,5 @@ Sparky.task("watch:images", () => {
 });
 
 Sparky.task("default", ["clean", "watch:images"], () => {
-    console.log("init tasks");
     fuse.run();
 });

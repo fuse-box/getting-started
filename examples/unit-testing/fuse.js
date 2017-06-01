@@ -1,4 +1,4 @@
-const {FuseBox, Sparky} = require("fuse-box");
+const {FuseBox} = require("fuse-box");
 
 const fuse = FuseBox.init({
     homeDir: "src",
