@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/fuse-box/getting-started#readme",
   "devDependencies": {
-    "fuse-box": "^2.0.12",
+    "fuse-box": "^2.0.2",
     "fuse-test-runner": "^1.0.13",
     "node-sass": "^4.5.3",
     "typescript": "^2.3.4",
