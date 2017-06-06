@@ -6,7 +6,7 @@ const fuse = FuseBox.init({
     plugins: [
         [SassPlugin(), CSSPlugin()],
         CSSPlugin(),
-        WebIndexPlugin()]
+        WebIndexPlugin({path: "."})]
 });
 
 fuse.dev();
